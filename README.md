@@ -1,6 +1,9 @@
 # Praktikum-Data-Mining
 # TUGAS PRAKTIKUM - DATA MINING
-
+ **Kelompok Praktikum**
+* **Gilang Prayoga** (312310232)
+* **Adira Alvian Zein** (312310263)
+* **Rifqi Putra Adhadi** (312310281)
 
 Analisis Data Mining : Visualisasi Tren GDP Per Kapita Global (Dalam Satuan USD) Menggunakan Apache Spark dan Dashboard Interaktif
 # 1. Pendahuluan
