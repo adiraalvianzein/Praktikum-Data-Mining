@@ -2,18 +2,19 @@
 # TUGAS PRAKTIKUM - DATA MINING
 
 
-**Topik:** Klasifikasi Prediksi Pembelian E-Commerce Menggunakan Algoritma C4.5  
-**Program Studi:** Teknik Informatika  
-**Universitas:** Universitas Pelita Bangsa
+Analisis Data Mining : Visualisasi Tren GDP Per Kapita Global (Dalam Satuan USD) Menggunakan Apache Spark dan Dashboard Interaktif
+# 1. Pendahuluan
 
-**Anggota Kelompok:**
-1. Gilang Prayoga (312310232)
-2. Rifqi Putra Adhadi (312310281)
-3. Adira Alvian Zein (312310263)
+## A. Latar Belakang & Tujuan
+Tugas ini bertujuan untuk menerapkan pipeline analisis Data Mining secara end-to-end. Kami menggunakan dataset GDP per kapita global (~200MB) untuk mensimulasikan karakteristik Data Mining, khususnya pada aspek **Volume, Variety, dan Value**.
 
----
-* **Dataset:** Online Shoppers Purchasing Intention
-* **Algoritma:** C4.5 (Decision Tree)  
-* **Tujuan:**
-  1. Memprediksi apakah pengunjung web akan melakukan transaksi pembelian (Revenue: True/False) berdasarkan data perilaku *browsing*.
-  2. Mengidentifikasi fitur atau faktor perilaku apa yang paling berpengaruh (seperti kualitas UI/UX halaman web) terhadap keputusan pembelian, guna memberikan rekomendasi strategi bisnis e-commerce.
+## B. Apa yang Akan Dilakukan?
+Kami akan memproses data menggunakan **Apache Spark** di Google Colab untuk melakukan pembersihan dan analisis data ekonomi skala besar. Hasil akhir dari proyek ini adalah sebuah laporan ilmiah dan **Dashboard Analitik** berbasis Python.
+
+# 2. Metodologi
+
+Metodologi penelitian ini mengikuti standar pipeline Data Mining
+1. **Data Ingestion**: Mengunduh dataset 200MB dari Google Drive menggunakan library `gdown`
+2. **Data Preprocessing**: Membersihkan data menggunakan **PySpark** untuk menangani nilai kosong dan konversi tipe data numerik
+3. **Advanced Analysis**: Melakukan agregasi data untuk menemukan tren GDP antar negara menggunakan Google Colab
+4. **Visualization & Dashboard**: Menyajikan hasil dalam bentuk grafik dan membangun dashboard interaktif (Streamlit/Dash)
